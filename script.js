@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const convertButton = document.getElementById("convert-btn");
     const output = document.getElementById("output");
 
+    output.innerText = "Roman Numberal"
+
     document.querySelector('#convert-btn').addEventListener("click", check);
     function check() {
         if (number.value === "") {
